@@ -1,0 +1,46 @@
+// Import Hannah's global variables
+@import "hannah.styl"
+// Use them to fill out the template
+@import "template.styl"
+// Make it easy to change color scheme
+body.hannah
+	@extend .main
+
+// Import new global variables (overwrites old)
+@import "brett.styl"
+// Reimport the template, resetting with new variables
+@import "template.styl"
+// Enable easy switch
+body.brett
+	@extend .main
+
+// Jacqi
+@import "jacqi.styl"
+@import "template.styl"
+body.jacqi
+	@extend .main
+
+// Ned
+@import "ned.styl"
+@import "template.styl"
+
+body.ned
+	@extend .main
+
+// Jake
+@import "jake.styl"
+@import "template.styl"
+
+body.jake
+	@extend .main
+
+// Sheree
+@import "sheree.styl"
+@import "template.styl"
+body.sheree
+	@extend .main
+
+@import "kirkland.styl"
+@import "template.styl"
+body.kirkland
+	@extend .main

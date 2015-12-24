@@ -1,0 +1,50 @@
+<head>
+  <title>fam</title>
+</head>
+
+<body>
+{{> top}}
+<!-- <hr> -->
+{{> intro}}
+{{> top}}
+{{> activities}}
+{{> top}}
+{{> family}}
+</body>
+<template name="top">
+<img id="top-image" src="{{person.top_image_url}}"/>
+</template>
+<template name="intro">
+	<h1>Hello. My name is {{person.name}}.</h1>
+	<hr>
+	<div id = "profile-image-wrapper"><img id = "profile-image" src = "{{person.profile_image_url}}"/></div>
+</template>
+<template name = "activities">
+	<div id = "activities">
+		<h1>This is what I do.</h1>
+		<hr>
+		{{#each activities}}
+		<div class="activity-wrapper">
+		<div class = "activity">
+			<div class = "activity-icon">
+				<i class = "fa fa-fw fa-lg fa-{{icon}}"></i>
+			</div>
+			<div class = "activity-text">
+				<div class = "activity-title">{{{title}}}</div>
+				<div class = "activity-description">{{{description}}}</div>
+			</div>
+		</div>
+		</div>
+		{{/each}}
+	</div>
+</template>
+
+<template name ="family">
+	<h1>This is my family.</h1>
+	<hr>
+	<div id = "circles">
+		{{#each members}}
+		<div class="circle">{{{first_name}}}</div>
+		{{/each}}	
+	</div>
+</template>
