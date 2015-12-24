@@ -1,11 +1,11 @@
 
 main = -> 
-	$("#top-image").hide().fadeIn "slow", -> 
-		$("hr").css
-			width:"0px"
-		.animate
-			width:"80%"
-			, "slow"
+	# $("#top-image").hide().fadeIn "slow", -> 
+	$("hr").css
+		width:"0px"
+	.animate
+		width:"80%"
+		, "slow"
 
 if Meteor.isClient
 	
@@ -20,7 +20,6 @@ if Meteor.isClient
 	$(document).ready ->
 		main()
 		Tracker.autorun ->
-			
 			curr = Session.get("person")
 			if !$("body").is(".#{curr.class_name}")
 				$("body").removeAttr("class").addClass curr.class_name

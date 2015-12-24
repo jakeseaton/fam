@@ -3,22 +3,25 @@
 </head>
 
 <body>
-{{> top}}
 <!-- <hr> -->
 {{> intro}}
-{{> top}}
+
 {{> activities}}
-{{> top}}
 {{> family}}
 </body>
 <template name="top">
 <img id="top-image" src="{{person.top_image_url}}"/>
 </template>
+
 <template name="intro">
-	<h1>Hello. My name is {{person.name}}.</h1>
+	<h1>Hello. My name is {{person.name}}. This is me.</h1>
 	<hr>
-	<div id = "profile-image-wrapper"><img id = "profile-image" src = "{{person.profile_image_url}}"/></div>
+	<div id = "profile-image-wrapper">
+		<img id = "profile-image" src = "{{person.profile_image_url}}"/>
+		<div id = "profile-text">{{person.profile_text}}</div>
+	</div>
 </template>
+
 <template name = "activities">
 	<div id = "activities">
 		<h1>This is what I do.</h1>
@@ -44,7 +47,13 @@
 	<hr>
 	<div id = "circles">
 		{{#each members}}
-		<div class="circle">{{{first_name}}}</div>
+		<div class="circle">
+			<div class="user-wrapper">
+				<i class = "fa fa-user"></i>
+				<div class ="user-name">{{{first_name}}}</div>
+			</div>
+			
+		</div>
 		{{/each}}	
 	</div>
 </template>

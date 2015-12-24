@@ -6,7 +6,8 @@ MainFont = "Josefin Sans", cursive
 
 TopImageHeight = 500px
 FontColor = gray
-CircleSize = 115px
+CircleSize = 190px
+ProfilePadding = 245px
 circularity()
 	width arguments
 	height arguments
@@ -20,10 +21,32 @@ body
 		&#profile-image
 			circularity(CircleSize)
 			display inline-block
+			float left
+
 	h1
 		text-align center
 	#profile-image-wrapper
 		text-align center
+		height CircleSize
+		padding-left ProfilePadding
+		padding-right ProfilePadding
+		margin-bottom 35px
+		#profile-text
+			float right
+			width 75%
+			padding-top 40px
+			text-align left
+			font-size 25px
+	#circles
+		margin-top 20px
+		.user-wrapper
+			margin-top 40px
+			.user-name
+				margin-top 10px
+			i
+				font-size 80px
+
+
 #activities
 	.activity-wrapper
 		width 100%
