@@ -6,6 +6,9 @@ main = ->
 	.animate
 		width:"80%"
 		, "slow"
+redirect_if_mobile = -> 
+	if window.orientation?
+		location.replace "http://jakeseaton.net"
 
 if Meteor.isClient
 	
@@ -20,6 +23,7 @@ if Meteor.isClient
 	$(document).ready ->
 		main()
 		Tracker.autorun ->
+			redirect_if_mobile()
 			curr = Session.get("person")
 			if !$("body").is(".#{curr.class_name}")
 				$("body").removeAttr("class").addClass curr.class_name
@@ -47,9 +51,14 @@ if Meteor.isClient
 
 	Template.family.events
 		"click .circle" : ->
+			location.href = "/#{@class_name}"
+			return
 			Session.set "person", @
 			$("body").removeAttr("class").addClass @class_name
 			# $("body").scrollTo(0,0)
 			$("body").animate({ scrollTop: (0) }, 'slow')
+
+			# 
+
 
 	

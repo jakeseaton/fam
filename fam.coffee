@@ -37,17 +37,17 @@ if Meteor.isClient
             profile_image_url:"img/ned_profile.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title:"tennis"
+                    title:"Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon: "question"
+                    icon: "newspaper-o"
                 ,
-                    title: "mercury"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon: "question"
+                    icon: "car"
                 ,
-                    title: "Stuff"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon: "question"
+                    icon: "certificate"
             ]
                 
         sheree: new FamilyMember
@@ -57,17 +57,17 @@ if Meteor.isClient
             profile_image_url:"img/sheree_profile.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"bookmark"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"thumb-tack"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"map-marker"
             ]
         jacqi:  new FamilyMember
             first_name: "Jacqi"
@@ -77,17 +77,17 @@ if Meteor.isClient
             profile_image_url:"img/jacqi2.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title: "Cycling"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"user-md"
                 ,
-                    title: "Books"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"bicycle"
                 ,
-                    title: "Medicine"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"bookmark-o"
             ]
         brett: new FamilyMember
             first_name: "Brett"
@@ -96,36 +96,36 @@ if Meteor.isClient
             profile_image_url:"img/brett_profile.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"camera-retro"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"book"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"pencil"
             ]
         kirk: new FamilyMember
-            first_name: "Kirkland"
+            first_name: "Kirk"
             last_name: "Lambert"
             url:"kirklandlambert.com"
             profile_image_url:"img/kirk_profile.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"futbol-o"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"heartbeat"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"cog"
             ]
 
         hannah: new FamilyMember
@@ -135,15 +135,15 @@ if Meteor.isClient
             profile_image_url:"img/hannah_profile.jpg"
             profile_text: "Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
             activities: [
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"camera"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"lightbulb-o"
                 ,
-                    title: "Herp"
+                    title: "Thing"
                     description:"Lorem ipsum dolor sit amet, nonummy lectus adipiscing nunc in, tellus hendrerit libero in nibh dolor ut. Ultricies commodi pede. Habitant elit, massa nascetur ut tempus pulvinar, wisi nonummy, tellus elementum pellentesque nibh ultricies exercitation, nonummy consectetuer sed vivamus faucibus dui."
-                    icon:"question"
+                    icon:"cutlery"
             ]
